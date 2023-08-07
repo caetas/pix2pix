@@ -1,7 +1,6 @@
 # Lint and code style
 black==22.10.0
 commitizen==2.24.0
--e git+https://bitbucket.fraunhofer.pt/scm/is2020/mlops-commit-drafter.git@main#egg=cz_bitbucket_jira_conventional
 flake8==5.0.4
 isort==5.10.1
 mypy==0.982
