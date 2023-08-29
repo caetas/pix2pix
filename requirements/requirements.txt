@@ -21,3 +21,10 @@ s3fs==2022.1.0
 zulip==0.8.2
 torch==2.0.1
 torchvision
+monai>=1.2.0rc1
+generative @ git+https://github.com/Project-MONAI/GenerativeModels.git
+tqdm
+scikit-image
+matplotlib
+nibabel
+pillow

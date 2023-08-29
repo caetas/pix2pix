@@ -42,7 +42,7 @@ _data_processed_dir = Path(str(getenv("DIR_DATA_PROCESSED")))
 data_processed_dir = join(project_dir, _data_processed_dir)
 
 # CUDA Enable
-ENABLE_CUDA = False
+ENABLE_CUDA = True
 if not ENABLE_CUDA:
     environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
     environ["CUDA_VISIBLE_DEVICES"] = "-1"
